@@ -1,0 +1,10 @@
+{
+  "title":       "Application RLM",
+  "description": "Runtime Lifecycle Management of Applications and their Components",
+  "author":      "Bernard Tsai mailto:bernard@tsai.eu",
+  "language":    "en",
+  "gitbook":     ">= 3.0.0",
+
+  "pdf.fontSize":  12,
+  "pdf.paperSize": "a4"
+}

@@ -1,0 +1,100 @@
+@startuml
+
+title VNF Lifecycle Management
+hide footbox
+
+actor    DevOps
+database GitLab
+database Artifactory
+control  AWX
+control  VIM
+control  Gateway
+entity   VNFC
+
+== Installation & Configuration ==
+
+DevOps -> GitLab      : Upload Playbooks
+DevOps -> AWX         : Define Job Credentials
+DevOps -> AWX         : Define Job Inventory
+DevOps -> AWX         : Define Job Template
+AWX    -> GitLab      : Request Playbook
+AWX    <- GitLab      : Playbook
+AWX    -> AWX         : Integrate Inventory
+
+== Onboarding ==
+
+DevOps -> GitLab      : Setup GitLab Repository
+DevOps -> GitLab      : Upload VNF Descriptor
+DevOps -> Artifactory : Upload VNF Binaries
+
+== Deployment ==
+
+DevOps  -> AWX         : Trigger Deployment of VNF XYZ
+AWX     -> GitLab      : VNF descriptor
+AWX     <- GitLab      : VNF descriptor
+AWX     -> VIM         : Phase 1: Create Tenant
+AWX     -> VIM         : Phase 2: Create Networks
+AWX     -> VIM         : Phase 3: Create Servers
+VIM     -> Gateway     : Phase 3: Start Gateway
+activate Gateway
+VIM     -> VNFC        : Phase 3: Start Servers
+activate VNFC
+AWX     -> Gateway     : Phase 4 A: Configure Gateway
+Gateway -> Artifactory : Phase 4 B: Request packages
+Gateway <- Artifactory : Phase 4 B: Packages
+AWX     -> Gateway     : Phase 4 A: Invoke "deploy.sh"
+Gateway -> VNFC        : Phase 4 B: Configure servers
+VNFC    -> Gateway     : Phase 4 B: Request packages
+Gateway -> Artifactory : Phase 4 B: Request packages
+Gateway <- Artifactory : Phase 4 B: Packages
+Gateway -> VNFC        : Phase 4 B: Packages
+Gateway -> AWX:        : Status
+AWX     -> DevOps      : Status
+
+== Inventory ==
+
+DevOps  -> AWX         : Trigger Inventory of VNF XYZ
+AWX     -> GitLab      : VNF descriptor
+AWX     <- GitLab      : VNF descriptor
+AWX     -> VIM         : Request Inventory
+AWX     <- VIM         : Inventory
+AWX     -> DevOps      : Status
+
+== Scale-Out ==
+
+VNFC    -> Gateway     : Trigger Scale Out: VNF/Tenant/Cluster
+Gateway -> AWX         : Trigger Scale Out: VNF/Tenant/Cluster
+AWX     -> VIM         : Provision additional servers
+VIM     -> VNFC        : Start additional servers
+AWX     -> Gateway     : Invoke "scale-out.sh"
+Gateway -> VNFC        : Configure servers
+VNFC    -> Gateway     : Request packages
+Gateway -> Artifactory : Request packages
+Gateway <- Artifactory : Packages
+Gateway -> VNFC        : Packages
+Gateway -> AWX         : Status
+AWX     -> DevOps      : Status
+
+== Scale-In ==
+
+VNFC    -> Gateway     : Trigger Scale In: VNF/Tenant/Cluster
+Gateway -> AWX         : Trigger Scale In: VNF/Tenant/Cluster
+AWX     -> VIM         : Remove servers
+VIM     -> VNFC        : Remove servers
+AWX     -> Gateway     : Invoke "scale-in.sh"
+Gateway -> VNFC        : Configure servers
+Gateway -> AWX         : Status
+AWX     -> DevOps      : Status
+
+== Cleanup ==
+
+DevOps  -> AWX         : Trigger Cleanup of VNF XYZ
+AWX     -> GitLab      : VNF descriptor
+AWX     <- GitLab      : VNF descriptor
+AWX     -> VIM         : Destroy resources
+VIM     -> VNFC        : Destroy servers
+deactivate VNFC
+VIM     -> VNFC        : Destroy gateway
+deactivate Gateway
+AWX     -> DevOps      : Status
+@enduml
