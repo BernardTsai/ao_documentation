@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="50" height="50"/>
+  </defs>
+  <rect width="300" height="200" style="fill: rgb(216, 216, 216);" x="50" y="50"/>
+  <rect x="550" width="200" height="200" style="fill: rgb(216, 216, 216);" y="50"/>
+  <rect x="550" y="350" width="200" height="200" style="fill: rgb(216, 216, 216);"/>
+  <rect y="350" width="400" height="200" style="fill: rgb(216, 216, 216);" x="50"/>
+  <line x1="700" y1="300" x2="700" y2="175" style="stroke-width: 2; stroke: rgb(255, 64, 64);"/>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 467.679657, -20.609579)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">Model</text>
+  <text x="415.93" y="265.37" transform="matrix(1, 0, 0, 1.000001, 166.406311, -129.390869)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">GitLab</text>
+  <text x="187.122" y="537.842" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 14px; white-space: pre;">Virtual Infrastructure</text>
+  <rect x="349.984" width="100" height="200" style="fill: rgb(216, 216, 216);" y="50"/>
+  <text x="173.885" y="67.83" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 14px; white-space: pre;">Virtual Network Function</text>
+  <text x="415.93" y="265.37" transform="matrix(1, 0, 0, 1.000001, 270.648499, -142.719009)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">AWX</text>
+  <text x="574.854" y="67.842" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 14px; white-space: pre;" bx:origin="0 0">Application Orchestrator</text>
+  <g transform="matrix(0.25, 0, 0, 0.25, 575.000061, 75.000008)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 675.000061, 125.000008)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 575, 175.000015)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 375.000061, 125.000008)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <line x1="425" y1="150" x2="675" y2="150" style="stroke: rgb(0, 0, 255); stroke-width: 2;"/>
+  <line x1="500" y1="100" x2="575" y2="100" style="stroke: rgb(0, 0, 255); stroke-width: 2;"/>
+  <line x1="625" y1="100" x2="650" y2="100" style="stroke: rgb(0, 160, 0); stroke-width: 2;"/>
+  <line x1="625" y1="200" x2="650" y2="200" style="stroke: rgb(0, 160, 0); stroke-width: 2;"/>
+  <line x1="500" y1="225" x2="500" y2="75" style="stroke: rgb(0, 0, 255); stroke-width: 2;" bx:origin="Infinity -0.535"/>
+  <line x1="650" y1="225" x2="650" y2="75" style="stroke: rgb(0, 160, 0); stroke-width: 2;" bx:origin="0 0"/>
+  <line x1="550" y1="300" x2="750" y2="300" style="stroke-width: 2; stroke: rgb(255, 64, 64);"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 2;" x1="73.745" y1="150" x2="375" y2="150"/>
+  <line x1="650" y1="162.108" x2="675" y2="162.108" style="stroke: rgb(0, 160, 0); stroke-width: 2;"/>
+  <g transform="matrix(0.25, 0, 0, 0.25, 675.1875, 475.000092)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <text x="559.784" y="537.842" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 14px; white-space: pre;" bx:origin="0 0">Virtual Infastructure Manager</text>
+  <g transform="matrix(0.25, 0, 0, 0.25, 576.007813, 425.000061)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <line x1="600" y1="424.828" x2="600" y2="300" style="stroke-width: 2; stroke: rgb(255, 64, 64);"/>
+  <line x1="700" y1="475" x2="700" y2="300" style="stroke: rgb(255, 64, 64); stroke-width: 2;"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 2;" x1="725" y1="150" x2="850" y2="150"/>
+  <g transform="matrix(0.039724, 0, 0, 0.039724, 831.913147, 87.170235)">
+    <g id="Layer_x0020_1">
+      <path class="fil0" d="m1714 2044c0-590-384-1068-857-1068s-857 478-857 1068c0 92 384 167 857 167s857-75 857-167zm-857-2044c258 0 467 209 467 467s-209 467-467 467-467-209-467-467 209-467 467-467z" style="fill: rgb(216, 216, 216);"/>
+    </g>
+  </g>
+  <line x1="800" y1="225" x2="800" y2="75" style="stroke-width: 2; stroke: rgb(0, 0, 0);" bx:origin="Infinity -0.535"/>
+  <g transform="matrix(0.25, 0, 0, 0.25, 75, 175.000015)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 150.000046, 175.000046)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 225.282333, 175.000076)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 299.98407, 174.999985)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <text x="415.93" y="265.37" transform="matrix(1, 0, 0, 0.875731, 428.370697, -46.24461)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">DevOps</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 449.703156, 171.890396)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">VIM</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 531.585999, 223.062332)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">SDN-C</text>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 2;" x1="100" y1="150" x2="100" y2="175"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 2;" x1="173.62" y1="150" x2="173.62" y2="175"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 2;" x1="250" y1="150" x2="250" y2="176.643"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 2;" x1="326.537" y1="150" x2="326.537" y2="176.643"/>
+  <g transform="matrix(0.25, 0, 0, 0.25, 75.000008, 375.000031)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 150.000031, 374.828156)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 225.282333, 375)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 299.984009, 375)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <g transform="matrix(0.25, 0, 0, 0.25, 375.000031, 375.000031)">
+    <path d="M 0 50 L 100 0 L 200 50 L 100 100 Z" style="stroke-width: 0; fill: rgb(232, 232, 232);"/>
+    <path d="M 0 50 L 100 100 L 100 200 L 0 150 Z" style="stroke-width: 0; fill: rgb(144, 144, 144);"/>
+    <path d="M 100 100 L 200 50 L 200 150 L 100 200 Z" style="stroke-width: 0; fill: rgb(186, 186, 186);"/>
+  </g>
+  <line style="stroke-width: 2; stroke-dasharray: 10px; stroke: rgb(255, 128, 0);" x1="100.00000762939453" y1="225.0000762939453" x2="100.00000762939453" y2="374.8281555175781"/>
+  <line style="stroke-width: 2; stroke-dasharray: 10px; stroke: rgb(255, 128, 0);" x1="173.62" y1="225" x2="173.62" y2="374.828"/>
+  <line style="stroke-width: 2; stroke-dasharray: 10px; stroke: rgb(255, 128, 0);" x1="250" y1="225.172" x2="250" y2="375"/>
+  <line style="stroke-width: 2; stroke-dasharray: 10px; stroke: rgb(255, 128, 0);" x1="326.537" y1="225.172" x2="326.537" y2="375"/>
+  <line style="stroke-width: 2; stroke-dasharray: 10px; stroke: rgb(255, 128, 0);" x1="400" y1="176.643" x2="400" y2="375"/>
+  <text x="415.93" y="265.37" transform="matrix(1, 0, 0, 1.000001, -32.914024, -142.719009)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">VNFM</text>
+  <line x1="400" y1="500" x2="400" y2="424.828" style="stroke: rgb(0, 0, 255); stroke-width: 2;" bx:origin="Infinity -0.535"/>
+  <line x1="326.537" y1="500" x2="326.537" y2="424.828" style="stroke: rgb(0, 0, 255); stroke-width: 2;" bx:origin="Infinity -0.535"/>
+  <line x1="250" y1="500" x2="250" y2="424.828" style="stroke: rgb(0, 0, 255); stroke-width: 2;" bx:origin="Infinity -0.535"/>
+  <line x1="173.62" y1="500" x2="173.62" y2="424.828" style="stroke: rgb(0, 0, 255); stroke-width: 2;" bx:origin="Infinity -0.535"/>
+  <line x1="100" y1="500" x2="100" y2="424.828" style="stroke: rgb(0, 0, 255); stroke-width: 2;" bx:origin="Infinity -0.535"/>
+  <line x1="75" y1="500" x2="675.188" y2="500" style="stroke: rgb(0, 0, 255); stroke-width: 2;"/>
+  <line x1="600" y1="500" x2="600" y2="474.828" style="stroke: rgb(0, 0, 255); stroke-width: 2;" bx:origin="Infinity -0.535"/>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 434.015656, 41.468491)" style="fill: rgb(255, 0, 0); font-family: sans-serif; font-size: 9.99999px; white-space: pre;">INFRA-OAM</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, -55.328133, 179.140274)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">Host A </text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 18.291862, 179.140274)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">Host B </text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 94.015602, 179.140274)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">Host C </text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 169.224472, 179.312332)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">Host ... </text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 242.687485, 179.312332)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">Host ... </text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, -40.984371, -108.828377)" style="font-family: sans-serif; font-size: 9.99999px; white-space: pre;">VNF-OAM</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 350.016907, -183.000229)" style="fill: rgb(0, 0, 255); font-family: sans-serif; font-size: 9.99999px; white-space: pre;">TENANT-OAM</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 668.749939, -183.843994)" style="font-family: sans-serif; font-size: 9.99999px; white-space: pre;">MGMT</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 535.15625, -171.672104)" style="fill: rgb(0, 128, 0); font-family: sans-serif; font-size: 9.99999px; white-space: pre;"> VNF-OAM</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, -55.328133, -20.781635)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">App A</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 18.291861, -20.781635)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">App B</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 94.015602, -20.781635)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">App C</text>
+  <text x="115.995" y="256.587" transform="matrix(1, 0, 0, 1.000001, 169.224457, -20.609577)" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; white-space: pre;">App ...</text>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 2;" x1="626.008" y1="105" x2="800" y2="105"/>
+</svg>
