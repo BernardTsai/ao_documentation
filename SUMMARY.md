@@ -17,10 +17,8 @@
         * [Virtualised Network Function](model/vnf.md)
         * [Tenant](model/tenant.md)
         * [Network](model/network.md)
-        * [Cluster](model/cluster.md)
-        * [Node](model/node.md)
-        * [Volume](model/volume.md)
-
+        * [Internal Component](model/internal_component.md)
+        * [External Component](model/external_component.md)
 
 * [Application Orchestrator](automation/README.md)
     * [Architecture](automation/architecture.md)
