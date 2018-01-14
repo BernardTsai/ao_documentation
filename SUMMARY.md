@@ -2,12 +2,14 @@
 
 ### Introduction
 
-* [Introduction](README.md)
+* [Build/Transfer/Operate](introduction/BTO.md)
+* [This Document](introduction/document.md)
 
 ### Quick Start
 
 * [Quick Start](quickstart.md)
 
+### Application Model
 
 * [Application Model](model/README.md)
     * [Application Architecture](model/architecture.md)
@@ -20,6 +22,8 @@
         * [Internal Component](model/internal_component.md)
         * [External Component](model/external_component.md)
 
+### Application Orchestrator
+
 * [Application Orchestrator](automation/README.md)
     * [Architecture](automation/architecture.md)
     * [Ansible Tower](automation/tower.md)
@@ -29,11 +33,13 @@
     * [Virtual Infrastructure Manager](automation/virtual_infrastructure_manager.md)
     * [Gateway](automation/gateway.md)
 
+### Administration
 
 * [Administration](administration/README.md)
     * [Installation](administration/installation.md)
     * [Configuration](administration/configuration.md)
 
+### Usage
 
 * [Usage](usage/README.md)
     * [Onboarding](usage/onboarding.md)
@@ -43,6 +49,7 @@
     * [Inventory](usage/inventory.md)
     * [Cleanup](usage/cleanup.md)
 
+### development
 
 * [Development](development/README.md)
     * [Playbooks](development/playbooks.md)
@@ -50,5 +57,6 @@
     * [Templates](development/scripts.md)
     * [Setup](development/setup.md)
 
+### Appendix
 
 * [Glossary](GLOSSARY.md)
