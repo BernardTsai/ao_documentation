@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 620 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="240" x="440" style="fill: rgb(255, 182, 64); fill-opacity: 0.5;"/>
+  <path d="M 440 0 L 440 120 L 180 120 L 180 420 L 0 420 L 0 0 Z" style="fill-opacity: 0.5; fill: rgb(0, 0, 255);"/>
+  <rect width="440" height="180" x="180" y="240" style="fill-opacity: 0.5; fill: rgb(0, 128, 0);"/>
+  <rect width="260" height="120" x="180" y="120" style="fill: rgb(255, 64, 64); fill-opacity: 0.5;"/>
+  <rect width="160" height="40" x="10" y="70" style="fill: rgb(216, 216, 216);"/>
+  <text x="58.673" y="94.146" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Assignment</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="130" x="10"/>
+  <text x="77.262" y="154.146" style="font-family: sans-serif; font-size: 12px; white-space: pre;">User</text>
+  <g transform="matrix(1, 0, 0, 1, -180, 0)">
+    <rect width="160" height="40" style="fill: rgb(216, 216, 216);" x="190" y="10"/>
+    <text x="239.993" y="24.146" transform="matrix(1.000001, 0, 0, 1, 17.679523, 9.992193)" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Role</text>
+  </g>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" x="190" y="70"/>
+  <text x="251.997" y="94.144" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Tenant</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" x="450" y="70"/>
+  <text x="508.013" y="94.148" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Network</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="370" x="450"/>
+  <text x="519.009" y="394.133" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Port</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="130" x="230"/>
+  <text x="269.993" y="154.139" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Security Group</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="190" x="270"/>
+  <text x="314.329" y="214.148" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Security Rule</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="250" x="230"/>
+  <text x="292.251" y="274.147" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Volume</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="310" x="230"/>
+  <text x="279.668" y="334.147" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Attachment</text>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="190" x="10"/>
+  <text x="69.581" y="214.139" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Keypair</text>
+  <line style="stroke: rgb(0, 0, 0);" x1="90" y1="190" x2="90" y2="170"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="90" y1="70" x2="90" y2="50"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="90" y1="130" x2="90" y2="110"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="350" y1="90" x2="450" y2="90"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="170" y1="90" x2="190" y2="90"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="90" y1="390" x2="230" y2="390"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="90" y1="390" x2="90" y2="230"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="210" y1="380" x2="210" y2="110"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="210" y1="150" x2="230" y2="150"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="210" y1="275" x2="230" y2="275"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="210" y1="380" x2="230" y2="380"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="250" y1="210" x2="250" y2="170"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="249.984" y1="210" x2="269.984" y2="210"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="530" y1="370" x2="530" y2="110"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="390" y1="150" x2="490" y2="150"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="490" y1="370" x2="490" y2="150"/>
+  <rect width="160" height="40" style="fill: rgb(216, 216, 216);" y="370" x="230"/>
+  <text x="292.254" y="394.137" style="font-family: sans-serif; font-size: 12px; white-space: pre;">Server</text>
+  <line style="stroke: rgb(0, 0, 0);" x1="310" y1="310" x2="310" y2="290"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="310" y1="370" x2="310" y2="350"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="390" y1="390" x2="450" y2="390"/>
+  <text x="548.029" y="20.595" style="fill: rgb(255, 255, 255); font-family: sans-serif; font-size: 12px; font-weight: bold; white-space: pre;">NETWORK</text>
+  <text x="575.357" y="260.915" style="fill: rgb(255, 255, 255); font-family: sans-serif; font-size: 12px; font-weight: bold; white-space: pre;">NODE</text>
+  <text x="381.357" y="20.915" style="fill: rgb(255, 255, 255); font-family: sans-serif; font-size: 12px; font-weight: bold; white-space: pre;">TENANT</text>
+  <text x="373.357" y="184.142" style="fill: rgb(255, 255, 255); font-family: sans-serif; font-size: 12px; font-weight: bold; white-space: pre;">CLUSTER</text>
+  <text x="453.298" y="406.902" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant]_[cluster]_[node]_[network]</text>
+  <text x="256.368" y="407.027" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant]_[cluster]_[node]</text>
+  <text x="234.696" y="287.027" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant]_[cluster]_[node]_[volume]</text>
+  <text x="272.477" y="227.027" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant]_[cluster]_[network]_[index]</text>
+  <text x="54.465" y="227.027" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant|_keypair</text>
+  <text x="41.68" y="166.918" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant|_administrator</text>
+  <text x="249.982" y="167.027" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant]_[cluster]_[network]</text>
+  <text x="76.391" y="47.043" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">admin</text>
+  <text x="253.34" y="107.027" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant]</text>
+  <text x="490.273" y="107.027" style="fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 10px; white-space: pre;">[tenant]_[network]</text>
+</svg>

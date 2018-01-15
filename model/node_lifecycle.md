@@ -9,9 +9,7 @@ need to construct and modify all of the components of application accordingly.
 
 These states and transitions are depicted in the following diagram:
 
-```
-placeholder for the diagram with the standardised lifecycle
-```
+![Node Lifecycle](../images/node_lifecycle.png)
 
 The lifecycle of each element runs through following states:
 

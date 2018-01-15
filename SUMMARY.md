@@ -14,13 +14,27 @@
 * [Application Model](model/README.md)
     * [Application Architecture](model/architecture.md)
     * [VNF Lifecycle](model/vnf_lifecycle.md)
-    * [Node Lifecycle](model/application_lifecycle.md)
+    * [Node Lifecycle](model/node_lifecycle.md)
     * [Application Descriptor](model/descriptor.md)
         * [Virtualised Network Function](model/vnf.md)
         * [Tenant](model/tenant.md)
         * [Network](model/network.md)
         * [Internal Component](model/internal_component.md)
         * [External Component](model/external_component.md)
+
+### Lifecycle Model
+
+* [Lifecycle Model](lifecycle/README.md)
+    * [Onboarding](lifecycle/onboarding.md)
+    * [Deployment](lifecycle/deployment.md)
+    * [Scale-Out](lifecycle/scale-out.md)
+    * [Scale-In](lifecycle/scale-in.md)
+    * [Healing](lifecycle/healing.md)
+    * [Migration](lifecycle/migration.md)
+    * [Upgrade](lifecycle/upgrade.md)
+    * [Destroy](lifecycle/destroy.md)
+    * [Inventory](lifecycle/inventory.md)
+    * [Status](lifecycle/status.md)
 
 ### Application Orchestrator
 

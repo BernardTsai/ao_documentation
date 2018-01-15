@@ -2,25 +2,21 @@
 
 The generic structure of a VNF application is depicted in the following diagram:
 
-
-![VNF Architecture](../images/vnf_architecture.png)
-```
-placeholder for the diagram with the interconnected multi-dc VNF setup
-```
+![High-Level VNF Architecture](../images/vnf_highlevel_architecture.png)
 
 It details the structure of the solution in the context of the virtual
 infrastructure and application layer.
 
 A VNF may reside in one or more tenants which may be regarded as virtual data
 centres. In each of these data centres there may be one or more functional
-clusters consisting of one or more cluster nodes.
+components consisting of one or more component nodes.
 
-Each of these cluster nodes is represented by a virtual host which is provided
+Each of these component nodes is represented by a virtual host which is provided
 by the virtual infrastructure. These nodes make use of an operating system into
 which the application is deployed and configured. In addition content
-information may be held in such a cluster node.
+information may be held in such a component node.
 
-These cluster nodes may either be provided as prepackaged appliances or as
+These component nodes may either be provided as prepackaged appliances or as
 software applications which need to be installed on top of an operating system.
 
 To simplify runtime lifecycle management the entities:

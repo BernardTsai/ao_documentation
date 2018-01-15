@@ -1,5 +1,34 @@
 # Build / Transfer / Operate
 
+The approach presented in this document addresses following situation.
+
+An operator is providing services to end-users based on applications
+which have been developed by different solution providers,
+internal as well as external.
+The operator is maintaining a cloud platform to host these applications,
+but in contrast to a regular cloud provider is also guaranteeing to its customers
+that the services will meet specific service level agreements.
+
+These issues need to be addressed:
+
+* solutions from both internal and external solution providers need to be integrated efficiently,
+* a consistent way of integrating a multitude of different technologies and development processes is required,
+* the process needs to address the specifics of the runtime environment:
+  * platform capabilities (eg. DPDK),
+  * virtualisation technologies (VIM / SDN-C),
+  * security requirements (e.g. port-based control of ingress/egress traffic),
+  * placement policies (e.g. fire-compartments),
+  * data center distribution,
+  * IP address management,
+  * ...
+* decoupling of the VNF/application and infrastructure lifecycles,
+* consistent end-to-end management supporting end-user SLAs,
+* efficient and cost effective change management procedures and
+* agile provisioning of new features.
+
+Process:
+--------
+
 The build/transfer/operate process structures the way applications from different suppliers
 can be handed over to an operator in a standardised way.
 

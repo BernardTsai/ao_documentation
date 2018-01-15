@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <title>Lifecycle Model</title>
+  <path d="M 50 24 C 37.683 24 29.985 37.333 36.144 48 C 39.002 52.95 44.284 56 50 56 L 150 56 C 162.317 56 170.015 42.667 163.856 32 C 160.998 27.05 155.716 24 150 24 L 78 24 L 50 24 Z" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  <text text-anchor="middle" font-family="sans-serif" font-size="16" y="44" x="100" stroke-width="0" stroke="#000000" style="white-space: pre; font-size: 16px;">active</text>
+  <path d="M 80 56 L 84 60 L 76 60 Z" fill="#FF0000"/>
+  <path d="M 80 56 L 80 124" stroke="#FF0000"/>
+  <text x="232" y="88" transform="matrix(0, 1, -1, 0, 170, -144)" text-anchor="middle" font-family="sans-serif" font-size="8" style="white-space: pre; font-size: 8px;">start</text>
+  <path d="M 120 124 L 116 120 L 124 120 Z" fill="#FF0000"/>
+  <path d="M 120 56 L 120 124" stroke="#FF0000"/>
+  <text x="272" y="88" transform="matrix(0, 1, -1, 0, 210, -184)" text-anchor="middle" font-family="sans-serif" font-size="8" style="white-space: pre; font-size: 8px;">stop</text>
+  <path id="inactive" d="M 50 124 C 37.683 124 29.985 137.333 36.144 148 C 39.002 152.95 44.284 156 50 156 L 150 156 C 162.317 156 170.015 142.667 163.856 132 C 160.998 127.05 155.716 124 150 124 L 78 124 L 50 124 Z" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  <text id="inactivel_label" text-anchor="middle" font-family="sans-serif" font-size="16" y="144" x="100" stroke-width="0" stroke="#000000" style="white-space: pre; font-size: 16px;">inactive</text>
+  <path d="M 80 156 L 84 160 L 76 160 Z" fill="#FF0000"/>
+  <path d="M 80 156 L 80 224" stroke="#FF0000"/>
+  <text x="232" y="188" transform="matrix(0, 1, -1, 0, 270, -44)" text-anchor="middle" font-family="sans-serif" font-size="8" style="white-space: pre; font-size: 8px;">create</text>
+  <path d="M 120 224 L 116 220 L 124 220 Z" fill="#FF0000"/>
+  <path d="M 120 156 L 120 224" stroke="#FF0000"/>
+  <text x="272" y="188" transform="matrix(0, 1, -1, 0, 310, -84)" text-anchor="middle" font-family="sans-serif" font-size="8" style="white-space: pre; font-size: 8px;">destroy</text>
+  <g>
+    <path d="M 50 224 C 37.683 224 29.985 237.333 36.144 248 C 39.002 252.95 44.284 256 50 256 L 150 256 C 162.317 256 170.015 242.667 163.856 232 C 160.998 227.05 155.716 224 150 224 L 78 224 L 50 224 Z" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+    <text text-anchor="middle" font-family="sans-serif" font-size="16" y="244" x="100" stroke-width="0" stroke="#000000" style="white-space: pre; font-size: 16px;" transform="matrix(1, 0, 0, 0.999999, 0.007835, 1.468975)">defined</text>
+  </g>
+  <path d="M 100 256 L 104 260 L 96 260 Z" fill="#FF0000"/>
+  <path d="M 100 256 L 100 324" stroke="#FF0000"/>
+  <text x="252" y="288" transform="matrix(0, 1, -1, 0, 390, 36)" text-anchor="middle" font-family="sans-serif" font-size="8" style="white-space: pre; font-size: 8px;">cleanup</text>
+  <path d="M 50 324 C 37.683 324 29.985 337.333 36.144 348 C 39.002 352.95 44.284 356 50 356 L 150 356 C 162.317 356 170.015 342.667 163.856 332 C 160.998 327.05 155.716 324 150 324 L 78 324 L 50 324 Z" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  <text text-anchor="middle" font-family="sans-serif" font-size="16" y="344" x="100" stroke-width="0" stroke="#000000" style="white-space: pre; font-size: 16px;">error</text>
+  <path d="M 50 24 C 50 11.683 36.667 3.985 26 10.144 C 15.333 16.302 15.333 31.698 26 37.856 C 28.432 39.261 31.191 40 34 40" stroke="#FF0000" fill="none"/>
+  <path d="M 34 40 L 30 36 L 30 44 Z" fill="#FF0000"/>
+  <text text-anchor="middle" font-family="sans-serif" font-size="8" y="6" x="34" stroke-width="0" stroke="#000000" style="white-space: pre; font-size: 8px;">reconfigure</text>
+  <path d="M 50 124 C 50 111.683 36.667 103.985 26 110.144 C 15.333 116.302 15.333 131.698 26 137.856 C 28.432 139.261 31.191 140 34 140" stroke="#FF0000" fill="none"/>
+  <path d="M 34 140 L 30 136 L 30 144 Z" fill="#FF0000"/>
+  <text text-anchor="middle" font-family="sans-serif" font-size="8" y="106" x="34" stroke-width="0" stroke="#000000" style="white-space: pre; font-size: 8px;">configure</text>
+  <path d="M 166 340 C 204.433 340 228.453 298.333 209.237 265 C 200.318 249.53 183.837 240 166 240" stroke-dasharray="4, 4" stroke="#FF0000" fill="none"/>
+  <path d="M 166 340 C 242.98 340 291.093 256.667 252.603 190 C 234.739 159.06 201.727 140 166 140" stroke-dasharray="4, 4" stroke="#FF0000" fill="none"/>
+  <path d="M 166 340 C 281.47 340 353.639 215 295.904 115 C 269.109 68.59 219.59 40 166 40" stroke-dasharray="4, 4" stroke="#FF0000" fill="none"/>
+  <path d="M 166 340 L 170 336 L 170 344 Z" fill="#FF0000"/>
+  <text text-anchor="left" font-family="sans-serif" font-size="8" y="350" x="170" stroke-width="0" stroke="#000000" style="white-space: pre; font-size: 8px;">failure</text>
+</svg>

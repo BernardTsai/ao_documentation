@@ -17,3 +17,21 @@ A virtual machine or container belonging to a cluster.
 
 ## Volume
 A storage device attached to a node.
+
+## VIM
+Virtual infrastructure manager
+
+## SDN-C
+Software defined network controller
+
+## SLA
+Service level agreement
+
+## DPDK
+Data Plane Development Kit. A set of libraries and drivers for fast packet processing.
+
+## Ingress
+Inbound traffic
+
+## Egress
+Outbound traffic
