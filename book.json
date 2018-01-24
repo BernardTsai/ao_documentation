@@ -6,5 +6,7 @@
   "gitbook":     ">= 3.0.0",
 
   "pdf.fontSize":  12,
-  "pdf.paperSize": "a4"
+  "pdf.paperSize": "a4",
+
+  "plugins": ["expandable-chapters"]
 }

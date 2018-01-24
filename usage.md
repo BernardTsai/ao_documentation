@@ -43,7 +43,7 @@ The output will be pushed to the repository:
 Deployment:
 -----------
 
-Create/update a new tenant:
+Create/update a tenant:
 
     ansible-playbook deployment-playbook.yml --extra-vars "@cloud.yml" --extra-vars "vnf=Clearwater"
 
